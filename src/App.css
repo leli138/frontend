@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  outline: 0;
+}
+
+/*Usado para poder alinhar verticalmente ao centro da tela*/
+html,body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  -webkit-font-smoothing: antialiased !important; /*Da um efeito mais bonito no pixel da fonte*/
+
+}
